@@ -14,6 +14,8 @@
 		C20BD6D82189E95B007FE06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20BD6D62189E95B007FE06F /* LaunchScreen.storyboard */; };
 		C20BD6E32189E95B007FE06F /* weather_DarkSky_apiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BD6E22189E95B007FE06F /* weather_DarkSky_apiTests.swift */; };
 		C20BD6EE2189E95B007FE06F /* weather_DarkSky_apiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BD6ED2189E95B007FE06F /* weather_DarkSky_apiUITests.swift */; };
+		C20BD6FC2189E98F007FE06F /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BD6FB2189E98F007FE06F /* Services.swift */; };
+		C20BD6FE2189E9AE007FE06F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BD6FD2189E9AE007FE06F /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C20BD6E92189E95B007FE06F /* weather-DarkSky-apiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-DarkSky-apiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20BD6ED2189E95B007FE06F /* weather_DarkSky_apiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_DarkSky_apiUITests.swift; sourceTree = "<group>"; };
 		C20BD6EF2189E95B007FE06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20BD6FB2189E98F007FE06F /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		C20BD6FD2189E9AE007FE06F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				C20BD6CD2189E951007FE06F /* AppDelegate.swift */,
+				C20BD6FB2189E98F007FE06F /* Services.swift */,
+				C20BD6FD2189E9AE007FE06F /* Weather.swift */,
 				C20BD6CF2189E951007FE06F /* ViewController.swift */,
 				C20BD6D12189E951007FE06F /* Main.storyboard */,
 				C20BD6D42189E95B007FE06F /* Assets.xcassets */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20BD6FE2189E9AE007FE06F /* Weather.swift in Sources */,
 				C20BD6D02189E951007FE06F /* ViewController.swift in Sources */,
+				C20BD6FC2189E98F007FE06F /* Services.swift in Sources */,
 				C20BD6CE2189E951007FE06F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alvintu.weather-DarkSky-api";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alvintu.Gestures-with-Nick-Cage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alvintu.weather-DarkSky-api";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alvintu.Gestures-with-Nick-Cage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
